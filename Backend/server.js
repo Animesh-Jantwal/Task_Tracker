@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 import cors from "cors";
 import connectDB from "./config/db.js";
 import taskRoutes from "./routes/taskRoutes.js";
-import errorHandler from './middleware/Middleware.js';
+import errorHandler from './middleware/middleware.js';
 import morgan from 'morgan';
 import helmet from 'helmet';
 import rateLimit from 'express-rate-limit';
